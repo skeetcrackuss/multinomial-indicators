@@ -1,6 +1,3 @@
-
-
-
 local function menu_weapon(var)
     local w = var:match("%a+"):lower()
     local w = w:find("heavy") and "hpistol" or w:find("auto") and "asniper" or w:find("submachine") and "smg" or w:find("light") and "lmg" or w
